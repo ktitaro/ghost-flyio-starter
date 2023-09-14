@@ -5,8 +5,7 @@ Read: https://selfhoster.co/launch-a-ghost-blog-on-flyio/
 
 ## Launch a blog
 
-You will need a [Fly.io](https://fly.io/) account to get started.
-With your account registered, run the following command in your terminal:
+You will need a [Fly.io](https://fly.io/) account to get started. Run the following command in your terminal:
 
 ```sh
 git clone https://github.com/selfhosterco/ghost-flyio-starter.git && cd ./ghost-flyio-starter && sh ./setup.sh
