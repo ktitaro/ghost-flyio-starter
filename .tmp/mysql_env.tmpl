@@ -1,0 +1,5 @@
+fly secrets set -a {{name}}-mysql \
+  MYSQL_USER={{dbUser}} \
+  MYSQL_DATABASE={{dbName}} \
+  MYSQL_PASSWORD={{dbUserPwd}} \
+  MYSQL_ROOT_PASSWORD={{dbRootPwd}}

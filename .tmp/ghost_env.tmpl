@@ -1,0 +1,9 @@
+fly secrets set -a {{name}}-ghost \
+  url=https://{{name}}-ghost.fly.dev \
+  database__client=mysql \
+  database__connection__port=3306 \
+  database__connection__user={{dbUser}} \
+  database__connection__host={{name}}-mysql.internal \
+  database__connection__password={{dbUserPwd}} \
+  database__connection__database={{dbName}} \
+  NODE_ENV=production

@@ -1,0 +1,17 @@
+app = "{{name}}-mysql"
+primary_region = "{{region}}"
+
+[build]
+  image = "mysql:8.0.32"
+
+[mounts]
+  source="mysql_data"
+  destination="/data"
+
+[processes]
+  app = """
+    --datadir /data/mysql \
+    --performance-schema=OFF \
+    --innodb-buffer-pool-size 64M \
+    --default-authentication-plugin mysql_native_password
+  """
