@@ -3,7 +3,7 @@
 You will need a [Fly.io](https://fly.io/) account to get started. Run the following command in your terminal:
 
 ```sh
-git clone https://github.com/selfhosterco/ghost-flyio-starter.git && cd ./ghost-flyio-starter && sh ./setup.sh
+git clone https://github.com/ktitaro/ghost-flyio-starter && cd ./ghost-flyio-starter && sh ./setup.sh
 ```
 
 That's it 👏 You will be prompted for input to set up the project, and 
